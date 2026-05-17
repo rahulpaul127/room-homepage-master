@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Room homepage</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <main>
+    <div class="top-section">
+      <div class="hero-image-container">
+        <!-- Navigation -->
+        <header class="primary-header">
+          <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <img src="./images/icon-hamburger.svg" alt="Menu" class="icon-hamburger">
+          </button>
+          <a href="#" class="logo"><img src="./images/logo.svg" alt="Room Logo"></a>
+          <nav>
+            <button class="nav-close-btn" aria-label="Close menu">
+              <img src="./images/icon-close.svg" alt="Close" class="icon-close">
+            </button>
+            <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+              <li><a href="#">home</a></li>
+              <li><a href="#">shop</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- Slider Image -->
+        <picture class="slider-image">
+          <source media="(min-width: 768px)" srcset="./images/desktop-image-hero-1.jpg" id="hero-desktop">
+          <img src="./images/mobile-image-hero-1.jpg" alt="Hero Image" id="hero-mobile">
+        </picture>
+
+        <!-- Slider Controls for mobile -->
+        <div class="slider-controls mobile-controls">
+          <button class="btn-prev" aria-label="Previous slide"><img src="./images/icon-angle-left.svg" alt=""></button>
+          <button class="btn-next" aria-label="Next slide"><img src="./images/icon-angle-right.svg" alt=""></button>
+        </div>
+      </div>
+
+      <div class="hero-text-container">
+        <h1 id="hero-title">Discover innovative ways to decorate</h1>
+        <p id="hero-description">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+        <a href="#" class="shop-now-btn">
+          <span>S H O P  N O W</span>
+          <img src="./images/icon-arrow.svg" alt="">
+        </a>
+
+        <!-- Slider Controls for desktop -->
+        <div class="slider-controls desktop-controls">
+          <button class="btn-prev" aria-label="Previous slide"><img src="./images/icon-angle-left.svg" alt=""></button>
+          <button class="btn-next" aria-label="Next slide"><img src="./images/icon-angle-right.svg" alt=""></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <img src="./images/image-about-dark.jpg" alt="Dark furniture" class="about-img-dark">
+      <div class="about-text-container">
+        <h2>About our furniture</h2>
+        <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+      </div>
+      <img src="./images/image-about-light.jpg" alt="Light furniture" class="about-img-light">
+    </div>
+  </main>
+  
+  <div class="nav-backdrop"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
