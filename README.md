@@ -25,7 +25,7 @@ This is a solution to the [Room homepage challenge on Frontend Mentor](https://w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/room-homepage-EiI-BxdCks)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/room-homepage-EiI-BxdCks)
 - Live Site URL: [GitHub Pages](https://rahulpaul127.github.io/room-homepage-master/)
 
 ---
